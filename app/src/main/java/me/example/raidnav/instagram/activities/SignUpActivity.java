@@ -1,7 +1,6 @@
 package me.example.raidnav.instagram.activities;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,8 +25,8 @@ public class SignUpActivity extends AppCompatActivity {
   }
 
   @Override
-  public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-    super.onCreate(savedInstanceState, persistentState);
+  public void onCreate(@Nullable Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_register);
 
     ProgressBar progressBar = findViewById(R.id.register_progress);

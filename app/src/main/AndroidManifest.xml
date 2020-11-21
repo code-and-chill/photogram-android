@@ -19,16 +19,22 @@
             android:name=".activities.SignInActivity"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".activities.HomeActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activities.HomeActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".activities.ProfileActivity"
             android:screenOrientation="portrait"

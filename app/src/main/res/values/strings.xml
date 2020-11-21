@@ -68,6 +68,8 @@
     <string name="node_following">following</string>
     <string name="create_a_new_account">Create a new account</string>
     <string name="don_t_have_an_account_create_one">Don\'t have an account? Create one</string>
+    <string name="no_posts_create_your_own_now">No posts? create your own now.</string>
+    <string name="fragment_messages">Fragment Messages</string>
 
 
 </resources>
